@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    /* border-radius: 30px; */
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+img{
+    width: 70px;
+}
+h2{
+    font-size: large;
+}
+input{
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.div1{
+    border: 1px solid hsl(31, 77%, 52%);
+    background-color: hsl(31, 77%, 52%);
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.div2{
+    border: 1px solid hsl(184, 100%, 22%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+.div3{
+    border: 1px solid hsl(179, 100%, 13%);
+    background-color: hsl(179, 100%, 13%);
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.input1{
+    color: hsl(31, 77%, 52%);
+}
+.input2{
+    color: hsl(184, 100%, 22%);
+}
+.input3{
+    color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 1100px) {
+    body {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+      margin-top: 0;
+      padding-top: 20px;
+    }
+    .maindiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* gap: 15px; */
+      padding: 12px;
+    }
+    .div1 {
+      /* border-radius: 20px; */
+      border-radius: 0;
+    }
+    .div2 {
+      /* border-radius: 20px; */
+      border-radius: 0;
+    }
+    .div3 {
+      /* border-radius: 20px; */
+      border-radius: 0;
+    }
+  }
