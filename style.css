@@ -65,19 +65,19 @@ input{
     border-bottom-right-radius: 20px;
 }
 .input1:hover{
-border: 3px solid hsl(0, 0%, 100%);
+border: 2px solid hsl(0, 0%, 100%);
 background-color: hsl(31, 77%, 52%);
 color: hsl(0, 0%, 100%);
 cursor: pointer;
 }
 .input2:hover{
-border: 3px solid hsl(0, 0%, 100%);
+border: 2px solid hsl(0, 0%, 100%);
 background-color: hsl(184, 100%, 22%);
 color: hsl(0, 0%, 100%);
 cursor: pointer;
 }
 .input3:hover{
-    border: 3px solid hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
@@ -109,18 +109,18 @@ cursor: pointer;
       padding: 3px;
     }
     .div1 {
-      border-radius: 0;
+        border-radius: 0;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
     .div2 {
-      /* border-radius: 20px; */
-      border-radius: 0;
+        /* border-radius: 20px; */
+        border-radius: 0;
     }
     .div3 {
       /* border-radius: 20px; */
-      border-radius: 0;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
+        border-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
   }
